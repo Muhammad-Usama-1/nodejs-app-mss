@@ -31,6 +31,8 @@ app.get('/mithuntechnologies', function(request, response) {
 
 //app.get("/html", function(req,res){
 app.get("/html", function(req,res){
+	const a=9
+	a=10
     res.set("Content-Type","text/html");
     //res.contentType("html") ; 
     res.write("<h2>Welcome Docker</h2>");
